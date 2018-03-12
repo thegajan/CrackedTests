@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <cassert>
-
 using namespace std;
 
 int main() {
@@ -27,6 +26,7 @@ int main() {
 		dict.associate(s, i);
 		assert(*dict.find(s) == i);
 	}
+	assert(dict.getNumItems() == 1000);
 	dict.reset();
 	assert(dict.getNumItems() == 0);
 	assert(dict.find("#") == nullptr);
