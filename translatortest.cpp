@@ -1,7 +1,6 @@
 #include "provided.h"
 #include <iostream>
 #include <string>
-#include <vector>
 #include <cassert>
 using namespace std;
 
